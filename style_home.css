@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #b3e7c7;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: Rajdhani;
+    align-content: space-around;
+    /* background: linear-gradient(-45deg,#b3e7c7, #92c5dd, #f1c4ed); */
+    background: linear-gradient(-76deg, #5265d3, #86d9df, #dd517b, #d6a386);
+    background-size: 400% 400%;
+	animation: Gradient 35s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+}
+a link{
+    font-style: none;
+}
+.Go:hover{
+    color: #9debee;
+}

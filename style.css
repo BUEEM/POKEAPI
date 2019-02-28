@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-family: Rajdhani;
+    align-content: space-around;
+    background: linear-gradient(-76deg, #5265d3, #86d9df, #dd517b, #d6a386);
+    background-size: 400% 400%;
+	animation: Gradient 60s ease infinite;
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+h2{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    color: rgb(179, 231, 199);
+    
+}
+
+.QCM {
+    width: 800px;
+    height: auto;
+    text-align: left; 
+}
+
